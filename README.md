@@ -72,9 +72,10 @@ The study achieves **93% accuracy** in both modes using **k-Nearest Neighbors (k
 
 ## ▶️ Instructions to Run
 
-1. **Install PyTorch with CUDA support**  
+1. **Create conda env with Python 3.13**  
     ```bash
-    pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+    conda create -n new_env python=3.13
+    conda activate new_env
 2. **Install dependencies**
     ```bash
     pip install -r requirements.txt
